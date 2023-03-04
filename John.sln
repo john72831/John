@@ -37,6 +37,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "John.OneOf", "John.OneOf\Jo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "John.BenDemystifier", "John.BenDemystifier\John.BenDemystifier.csproj", "{DC42C11D-4856-4ECD-9791-58ECFBDA3762}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "John.ImplicitAndExplicitOperator", "John.ImplicitAndExplicitOperator\John.ImplicitAndExplicitOperator.csproj", "{8E8DCFE9-FDCB-4378-A06B-902DE9C4E68B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,6 +93,10 @@ Global
 		{DC42C11D-4856-4ECD-9791-58ECFBDA3762}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC42C11D-4856-4ECD-9791-58ECFBDA3762}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC42C11D-4856-4ECD-9791-58ECFBDA3762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E8DCFE9-FDCB-4378-A06B-902DE9C4E68B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E8DCFE9-FDCB-4378-A06B-902DE9C4E68B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E8DCFE9-FDCB-4378-A06B-902DE9C4E68B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E8DCFE9-FDCB-4378-A06B-902DE9C4E68B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -110,6 +116,7 @@ Global
 		{9E7D2B33-7A83-40F2-95B5-DB69F397A1F0} = {A9756AC7-5794-4122-8CD4-EA27917AC914}
 		{F0499CA0-8DCD-4860-875F-D2328FBB234B} = {0E4DC26C-0E24-419F-A8F8-73D7C7172263}
 		{DC42C11D-4856-4ECD-9791-58ECFBDA3762} = {0E4DC26C-0E24-419F-A8F8-73D7C7172263}
+		{8E8DCFE9-FDCB-4378-A06B-902DE9C4E68B} = {A9756AC7-5794-4122-8CD4-EA27917AC914}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4A169F98-AF3D-41C2-86AA-956352BF2D93}
