@@ -39,7 +39,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "John.BenDemystifier", "John
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "John.ImplicitAndExplicitOperator", "John.ImplicitAndExplicitOperator\John.ImplicitAndExplicitOperator.csproj", "{8E8DCFE9-FDCB-4378-A06B-902DE9C4E68B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "John.Mapster", "John.Mapster\John.Mapster.csproj", "{1CD3B12A-9336-4708-A670-13F04C469367}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "John.Mapster", "John.Mapster\John.Mapster.csproj", "{1CD3B12A-9336-4708-A670-13F04C469367}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "John.PriorityQueue", "John.PriorityQueue\John.PriorityQueue.csproj", "{0F3DCA4A-02A7-47D9-A708-1C62BE620FDD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -103,6 +105,10 @@ Global
 		{1CD3B12A-9336-4708-A670-13F04C469367}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CD3B12A-9336-4708-A670-13F04C469367}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CD3B12A-9336-4708-A670-13F04C469367}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F3DCA4A-02A7-47D9-A708-1C62BE620FDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F3DCA4A-02A7-47D9-A708-1C62BE620FDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F3DCA4A-02A7-47D9-A708-1C62BE620FDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F3DCA4A-02A7-47D9-A708-1C62BE620FDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -124,6 +130,7 @@ Global
 		{DC42C11D-4856-4ECD-9791-58ECFBDA3762} = {0E4DC26C-0E24-419F-A8F8-73D7C7172263}
 		{8E8DCFE9-FDCB-4378-A06B-902DE9C4E68B} = {A9756AC7-5794-4122-8CD4-EA27917AC914}
 		{1CD3B12A-9336-4708-A670-13F04C469367} = {0E4DC26C-0E24-419F-A8F8-73D7C7172263}
+		{0F3DCA4A-02A7-47D9-A708-1C62BE620FDD} = {A9756AC7-5794-4122-8CD4-EA27917AC914}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4A169F98-AF3D-41C2-86AA-956352BF2D93}
