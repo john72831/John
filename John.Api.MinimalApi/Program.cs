@@ -1,29 +1,46 @@
 using Microsoft.AspNetCore.Mvc;
+using FluentValidation;
+using John.Api_MinimalApi.Filters;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
 builder.Services.AddSingleton<CustomerRepository>();
+builder.Services.AddValidatorsFromAssemblyContaining<Program>();
 
 var app = builder.Build();
 
+app.UseSwagger();
+app.UseSwaggerUI();
 app.UseHttpsRedirection();
 
 app.MapGet("/customers", ([FromServices] CustomerRepository repo) =>
 {
     return repo.GetAll();
-});
+})
+.WithOpenApi();
 
 app.MapGet("/customers/{id}", ([FromServices] CustomerRepository repo, Guid id) =>
 {
     var customer = repo.GetById(id);
 
     return customer is not null ? Results.Ok(customer) : Results.NotFound();
-});
+})
+.WithOpenApi();
 
 app.MapPost("/customers", ([FromServices] CustomerRepository repo, Customer customer) =>
 {
     repo.Create(customer);
 
     return Results.Created($"/customers/{customer.Id}", customer);
+})
+.WithOpenApi()
+.AddEndpointFilter<ValidatorFilter<Customer>>()
+.AddEndpointFilter(async (ctx, next) =>
+{
+    return await next(ctx);
 });
 
 app.MapPost("/customers/{id}", ([FromServices] CustomerRepository repo, Guid id, Customer updatedCustomer) =>
@@ -38,18 +55,20 @@ app.MapPost("/customers/{id}", ([FromServices] CustomerRepository repo, Guid id,
     repo.Update(updatedCustomer);
 
     return Results.Ok(updatedCustomer);
-});
+})
+.WithOpenApi();
 
-app.MapPost("/customers/{id}", ([FromServices] CustomerRepository repo, Guid id) =>
+app.MapDelete("/customers/{id}", ([FromServices] CustomerRepository repo, Guid id) =>
 {
     repo.Delete(id);
 
     return Results.Ok();
-});
+})
+.WithOpenApi();
 
 app.Run();
 
-record Customer(Guid Id, string FullName);
+public record Customer(Guid Id, string FullName);
 
 class CustomerRepository
 {
