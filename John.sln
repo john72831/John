@@ -63,6 +63,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "John.Api.MinimalApi", "John
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "John.WireMock.TestTarge", "John.WireMock.TestTarge\John.WireMock.TestTarge.csproj", "{1B33D7D8-DBE2-4E4C-8B70-74223C9F5ABF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "John.CallerArgumentExpression", "John.CallerArgumentExpression\John.CallerArgumentExpression.csproj", "{A9F02D41-09E8-4862-9AA1-D6821D6C7AF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,10 @@ Global
 		{1B33D7D8-DBE2-4E4C-8B70-74223C9F5ABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B33D7D8-DBE2-4E4C-8B70-74223C9F5ABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B33D7D8-DBE2-4E4C-8B70-74223C9F5ABF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9F02D41-09E8-4862-9AA1-D6821D6C7AF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9F02D41-09E8-4862-9AA1-D6821D6C7AF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9F02D41-09E8-4862-9AA1-D6821D6C7AF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9F02D41-09E8-4862-9AA1-D6821D6C7AF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -196,6 +202,7 @@ Global
 		{653E11B0-AF47-439E-9B67-C1C367671943} = {DFB9EC58-DEA0-4C7C-A44A-404A091792EA}
 		{AFFB870E-BF24-457F-8EB4-6120464AFA1B} = {A9756AC7-5794-4122-8CD4-EA27917AC914}
 		{1B33D7D8-DBE2-4E4C-8B70-74223C9F5ABF} = {DFB9EC58-DEA0-4C7C-A44A-404A091792EA}
+		{A9F02D41-09E8-4862-9AA1-D6821D6C7AF7} = {A9756AC7-5794-4122-8CD4-EA27917AC914}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4A169F98-AF3D-41C2-86AA-956352BF2D93}
