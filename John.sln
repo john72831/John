@@ -73,6 +73,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "John.LazyCache", "John.Lazy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "John.VariableInParallel", "John.VariableInParallel\John.VariableInParallel.csproj", "{C1A55740-3923-4445-94D3-A97D84FF4FB2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "John.Bogus", "John.Bogus\John.Bogus.csproj", "{F320134A-FD76-484B-929C-A11AA349C2E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -195,6 +197,10 @@ Global
 		{C1A55740-3923-4445-94D3-A97D84FF4FB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1A55740-3923-4445-94D3-A97D84FF4FB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1A55740-3923-4445-94D3-A97D84FF4FB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F320134A-FD76-484B-929C-A11AA349C2E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F320134A-FD76-484B-929C-A11AA349C2E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F320134A-FD76-484B-929C-A11AA349C2E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F320134A-FD76-484B-929C-A11AA349C2E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -231,6 +237,7 @@ Global
 		{12DE5E75-F984-4603-9C5D-9FE86BAC7B6F} = {A9756AC7-5794-4122-8CD4-EA27917AC914}
 		{FD67D340-B951-46AD-A34D-DF2340BD28F3} = {0E4DC26C-0E24-419F-A8F8-73D7C7172263}
 		{C1A55740-3923-4445-94D3-A97D84FF4FB2} = {DCA1731F-2C26-40A9-87E5-247F3A30D4CE}
+		{F320134A-FD76-484B-929C-A11AA349C2E7} = {0E4DC26C-0E24-419F-A8F8-73D7C7172263}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4A169F98-AF3D-41C2-86AA-956352BF2D93}
