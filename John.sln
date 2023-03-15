@@ -75,6 +75,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "John.VariableInParallel", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "John.Bogus", "John.Bogus\John.Bogus.csproj", "{F320134A-FD76-484B-929C-A11AA349C2E7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "John.MediatR.MinimalApi", "John.MediatR.MinimalApi\John.MediatR.MinimalApi.csproj", "{DA7BDB48-3651-43BD-9A6C-FF5D14B32089}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -201,6 +203,10 @@ Global
 		{F320134A-FD76-484B-929C-A11AA349C2E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F320134A-FD76-484B-929C-A11AA349C2E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F320134A-FD76-484B-929C-A11AA349C2E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA7BDB48-3651-43BD-9A6C-FF5D14B32089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA7BDB48-3651-43BD-9A6C-FF5D14B32089}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA7BDB48-3651-43BD-9A6C-FF5D14B32089}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA7BDB48-3651-43BD-9A6C-FF5D14B32089}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -238,6 +244,7 @@ Global
 		{FD67D340-B951-46AD-A34D-DF2340BD28F3} = {0E4DC26C-0E24-419F-A8F8-73D7C7172263}
 		{C1A55740-3923-4445-94D3-A97D84FF4FB2} = {DCA1731F-2C26-40A9-87E5-247F3A30D4CE}
 		{F320134A-FD76-484B-929C-A11AA349C2E7} = {0E4DC26C-0E24-419F-A8F8-73D7C7172263}
+		{DA7BDB48-3651-43BD-9A6C-FF5D14B32089} = {0E4DC26C-0E24-419F-A8F8-73D7C7172263}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4A169F98-AF3D-41C2-86AA-956352BF2D93}
