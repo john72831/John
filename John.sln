@@ -65,17 +65,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "John.WireMock.TestTarge", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "John.CallerArgumentExpression", "John.CallerArgumentExpression\John.CallerArgumentExpression.csproj", "{A9F02D41-09E8-4862-9AA1-D6821D6C7AF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "John.FastEndpoints", "John.FastEndpoints\John.FastEndpoints.csproj", "{2D0F4DDF-0431-42BA-963B-400FE87DC8DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "John.FastEndpoints", "John.FastEndpoints\John.FastEndpoints.csproj", "{2D0F4DDF-0431-42BA-963B-400FE87DC8DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "John.Linq", "John.Linq\John.Linq.csproj", "{12DE5E75-F984-4603-9C5D-9FE86BAC7B6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "John.Linq", "John.Linq\John.Linq.csproj", "{12DE5E75-F984-4603-9C5D-9FE86BAC7B6F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "John.LazyCache", "John.LazyCache\John.LazyCache.csproj", "{FD67D340-B951-46AD-A34D-DF2340BD28F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "John.VariableInParallel", "John.VariableInParallel\John.VariableInParallel.csproj", "{C1A55740-3923-4445-94D3-A97D84FF4FB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "John.VariableInParallel", "John.VariableInParallel\John.VariableInParallel.csproj", "{C1A55740-3923-4445-94D3-A97D84FF4FB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "John.Bogus", "John.Bogus\John.Bogus.csproj", "{F320134A-FD76-484B-929C-A11AA349C2E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "John.Bogus", "John.Bogus\John.Bogus.csproj", "{F320134A-FD76-484B-929C-A11AA349C2E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "John.MediatR.MinimalApi", "John.MediatR.MinimalApi\John.MediatR.MinimalApi.csproj", "{DA7BDB48-3651-43BD-9A6C-FF5D14B32089}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "John.MediatR.MinimalApi", "John.MediatR.MinimalApi\John.MediatR.MinimalApi.csproj", "{DA7BDB48-3651-43BD-9A6C-FF5D14B32089}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "John.ValidateConfig", "John.ValidateConfig\John.ValidateConfig.csproj", "{48E9D444-DB1C-4011-9561-B8C865BFE1DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -207,6 +209,10 @@ Global
 		{DA7BDB48-3651-43BD-9A6C-FF5D14B32089}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA7BDB48-3651-43BD-9A6C-FF5D14B32089}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA7BDB48-3651-43BD-9A6C-FF5D14B32089}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48E9D444-DB1C-4011-9561-B8C865BFE1DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48E9D444-DB1C-4011-9561-B8C865BFE1DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48E9D444-DB1C-4011-9561-B8C865BFE1DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48E9D444-DB1C-4011-9561-B8C865BFE1DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -245,6 +251,7 @@ Global
 		{C1A55740-3923-4445-94D3-A97D84FF4FB2} = {DCA1731F-2C26-40A9-87E5-247F3A30D4CE}
 		{F320134A-FD76-484B-929C-A11AA349C2E7} = {0E4DC26C-0E24-419F-A8F8-73D7C7172263}
 		{DA7BDB48-3651-43BD-9A6C-FF5D14B32089} = {0E4DC26C-0E24-419F-A8F8-73D7C7172263}
+		{48E9D444-DB1C-4011-9561-B8C865BFE1DD} = {A9756AC7-5794-4122-8CD4-EA27917AC914}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4A169F98-AF3D-41C2-86AA-956352BF2D93}
