@@ -1,16 +1,22 @@
 ﻿
-using OneOf;
+using John.OneOfExample;
 using OneOf.Types;
 
-var repository = new Repository();
-var result = repository.Update(new Movie());
+public class Program
+{
+    private static void Main(string[] args)
+    {
+        var repository = new Repository();
+        var result = repository.Update(new Movie());
 
-result.Match<int>((movie) => 1, _ => 2);
-result.Switch((movie)=> Console.WriteLine("1") , _ => Console.WriteLine("2"));
+        result.Match((movie) => 1, _ => 2);
+        result.Switch((movie) => Console.WriteLine("1"), _ => Console.WriteLine("2"));
+    }
+}
 
 public class Repository
 {
-    public OneOf<Movie, NotFound> Update(Movie moive)
+    public MovieResult Update(Movie moive)
     {
         if (moive is null)
             return new NotFound();
@@ -23,3 +29,4 @@ public class Movie
 {
     public string Name { get; set; } = "";
 }
+
