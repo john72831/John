@@ -2,7 +2,7 @@
 using System.ComponentModel;
 using System.Globalization;
 
-var traditionalChinese = new CultureInfo("zh-Hant");
+var traditionalChinese = new CultureInfo("zh-TW");
 
 var strings = new Func<string>[]
 {
